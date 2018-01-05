@@ -1,0 +1,141 @@
+#froala-editor {
+    width: 732px;
+}
+#main_button {
+    width: 511px;
+    height: 247px;
+    background-color: #fafafa;
+}
+.upload_choose {
+    padding-top: 100px;
+    text-align: center;
+    height: 115px;
+    position: relative;
+}
+.upload_main {
+    height: 100%;
+}
+#fileImage {
+    display: none;
+}
+.upload_choose .webuploader-pick {
+    background-color: #53a4ff;
+    width: 114px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+.pic_choose {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+.upload_choose.second {
+    display: none;
+}
+.upload_preview {
+    overflow: auto;
+    max-height: 247px;
+    width: 100%;
+}
+.uploadImg {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 38px;
+    height: 15px;
+    z-index: 200;
+    background: url(../img/photo.png) no-repeat top left;
+}
+.upload_append_list {
+    float: left;
+    position: relative;
+    height: 122px;
+}
+.upload_delete {
+    display: none;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 7px;
+    left: 111px;
+    z-index: 200;
+    background: url(../img/close.png) no-repeat right bottom;
+}
+.upload_image {
+    width: 106px;
+    height: 106px;
+    margin-left: 15px;
+    object-fit: cover;
+    display: block;
+}
+.insertButton {
+    text-align: right;
+    height: 50px;
+}
+.insertButton.hide {
+    display: none;
+}
+.insertButton #OK-1 {
+    bottom: -11px;
+    left: 376px;
+    color: #fff;
+    background: #53a4ff;
+    height: 30px;
+    width: 106px;
+    font-size: 14px;
+    text-align: center;
+}
+.fr-box.fr-basic .fr-element {
+    min-height: 340px;
+}
+#videoUpload-1 {
+    display: none;
+}
+progress {
+    position: absolute;
+    width: 106px;
+    margin-left: 15px;
+    bottom: 0;
+    left: 0;
+    background-color: #fafafa;
+    color: #53a4ff;
+}
+
+progress::-moz-progress-bar { 
+    background: #53a4ff; 
+}
+progress::-webkit-progress-bar { 
+    background: #fafafa; 
+}
+progress::-webkit-progress-value  { 
+    background: #53a4ff; 
+}
+
+.upload_append_list.state-complete .success {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background: url(../img/success.png) no-repeat right bottom;
+    background: url(../img/success.gif) no-repeat right bottom \9;
+    border-radius: 0;
+}
+#addPic .upload_add {
+    display: inline-block;
+    width: 106px;
+    height: 120px;
+    margin-left: 15px;
+    background: url(../img/image.png) no-repeat center;
+    cursor: pointer;
+}
+.fr-quick-insert {
+    display: none !important;
+}
+.insert_inf {
+    display: none;
+}

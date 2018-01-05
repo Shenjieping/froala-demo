@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "froala-editor@^2.7.3",
+        "scope": null,
+        "escapedName": "froala-editor",
+        "name": "froala-editor",
+        "rawSpec": "^2.7.3",
+        "spec": ">=2.7.3 <3.0.0",
+        "type": "range"
+      },
+      "/Users/shenjieping/project/dulife/dulife_pc"
+    ]
+  ],
+  "_from": "froala-editor@>=2.7.3 <3.0.0",
+  "_id": "froala-editor@2.7.3",
+  "_inCache": true,
+  "_location": "/froala-editor",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/froala-editor-2.7.3.tgz_1512998057493_0.05407781805843115"
+  },
+  "_npmUser": {
+    "name": "froala",
+    "email": "stefan@froala.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "froala-editor@^2.7.3",
+    "scope": null,
+    "escapedName": "froala-editor",
+    "name": "froala-editor",
+    "rawSpec": "^2.7.3",
+    "spec": ">=2.7.3 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER",
+    "/react-froala-wysiwyg"
+  ],
+  "_resolved": "https://registry.npmjs.org/froala-editor/-/froala-editor-2.7.3.tgz",
+  "_shasum": "c17e1c7d70f736aff9b19b19361420a35022e5b3",
+  "_shrinkwrap": null,
+  "_spec": "froala-editor@^2.7.3",
+  "_where": "/Users/shenjieping/project/dulife/dulife_pc",
+  "bugs": {
+    "url": "https://github.com/froala/wysiwyg-editor/issues"
+  },
+  "dependencies": {
+    "font-awesome": ">=4.4.0",
+    "jquery": ">=1.11.0"
+  },
+  "description": "A beautiful Javascript WYSIWYG HTML rich text editor. High performance and modern design make it easy to use for developers and loved by users.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-f8zi5NZ8tcKAYa9e/rlKsRZYh47ESX0hKfsLmy05M1XrGSo2qK+c8yCs3Yi1/7C7J8yLZIq+u/DL8OOJftcywg==",
+    "shasum": "c17e1c7d70f736aff9b19b19361420a35022e5b3",
+    "tarball": "https://registry.npmjs.org/froala-editor/-/froala-editor-2.7.3.tgz"
+  },
+  "filename": "js/froala_editor.min.js",
+  "gitHead": "6b8ba9ad3ddcc23ed88e5d9cb9628321b424d174",
+  "homepage": "https://www.froala.com/wysiwyg-editor",
+  "keywords": [
+    "froala",
+    "froala-editor",
+    "froala-wysiwyg",
+    "html",
+    "text",
+    "editor",
+    "wysiwyg",
+    "jquery-plugin",
+    "rich editor",
+    "rich text editor",
+    "rte",
+    "javascript",
+    "jquery"
+  ],
+  "license": "https://www.froala.com/wysiwyg-editor/pricing",
+  "main": "js/froala_editor.min.js",
+  "maintainers": [
+    {
+      "name": "froala",
+      "email": "stefan@froala.com"
+    }
+  ],
+  "name": "froala-editor",
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "js/plugins/*.min.js",
+        "js/third_party/*.min.js",
+        "js/froala_editor.min.js",
+        "js/froala_editor.pkgd.min.js",
+        "css/froala_editor.min.css",
+        "css/froala_editor.pkgd.min.css",
+        "css/froala_style.min.css",
+        "css/plugins/*.min.css",
+        "css/third_party/*.min.css",
+        "css/themes/*.min.css"
+      ]
+    }
+  ],
+  "npmName": "froala-editor",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/froala/wysiwyg-editor.git"
+  },
+  "version": "2.7.3"
+}
